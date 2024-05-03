@@ -1,7 +1,16 @@
 package cuentas;
 
+/**
+ *
+ * @author Sergio Pérez Celada
+ */
+
 public class Main {
 
+     /**
+     * @param args Es para la ejecución del código
+     */
+    
     public static void main(String[] args) {
         CCuenta cuenta1;
         double saldoActual;

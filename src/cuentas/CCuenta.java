@@ -3,62 +3,62 @@ package cuentas;
 public class CCuenta {
 
     /**
-     * @return the nombre
+     * @return devuelve el nombre introducido a la variable
      */
     public String getNombre() {
         return nombre;
     }
 
     /**
-     * @param nombre the nombre to set
+     * @param nombre asigna un nombre a la variable
      */
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
     /**
-     * @return the cuenta
+     * @return devuelve la cuenta introducida en la variable
      */
     public String getCuenta() {
         return cuenta;
     }
 
     /**
-     * @param cuenta the cuenta to set
+     * @param cuenta asigna un numero de cuenta a la variable
      */
     public void setCuenta(String cuenta) {
         this.cuenta = cuenta;
     }
 
     /**
-     * @return the saldo
+     * @return devuelve el saldo introducido en la variable
      */
     public double getSaldo() {
         return saldo;
     }
 
     /**
-     * @param saldo the saldo to set
+     * @param saldo asigna un saldo de cuenta a la variable
      */
     public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
 
     /**
-     * @return the tipoInterés
+     * @return devuelve el tipo de interés introducido en la variable
      */
     public double getTipoInterés() {
         return tipoInterés;
     }
 
     /**
-     * @param tipoInterés the tipoInterés to set
+     * @param tipoInterés asigna un tipo de interés a la variable
      */
     public void setTipoInterés(double tipoInterés) {
         this.tipoInterés = tipoInterés;
     }
 
-
+    
     private String nombre;
     private String cuenta;
     private double saldo;
